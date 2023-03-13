@@ -1,11 +1,6 @@
-#Jesus Romero
-#MCS 260 Spring 2022 Project 1
-#I hereby attest that I have adhered to the rules for projects as well as UIC’s Academic Integrity standards while completing this project.
-
 def SplitBinary():
     n = int(input("Enter the starting value: "))
     print(n)
-
     """At this point in the code, I have used the variable n to store the positive integer input. In order to turn the integer into binary, I used the bin() function and got rid of the 0b using [2:] because we know this is binary format and we dont need it. I then simply added a print function to print out the value of n."""
 
     List = []
